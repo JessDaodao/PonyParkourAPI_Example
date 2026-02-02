@@ -1,0 +1,11 @@
+name: PonyParkourAPI_Example
+version: '1.0'
+main: fun.eqad.ponyparkourapi_example.PonyParkourAPI_Example
+api-version: '1.20'
+author: EQAD Network
+depend:
+  - PonyParkour
+commands:
+  pptest:
+    description: PonyParkour API
+    usage: /pptest [info|join|leave|list]
